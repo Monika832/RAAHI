@@ -10,7 +10,7 @@ def canny(lane_img):
      return canny_img
 
 
-img=cv2.imread('test_image.jpg')
+img=cv2.imread('pic2.jpeg')
 print(img.shape)
 #image=cv2.resize(img,(462,462))
 lane_img=np.copy(img)
